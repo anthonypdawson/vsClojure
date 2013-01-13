@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{9B2D8C59-FCD5-40E3-ADEA-44D64ECB6993}"
 	ProjectSection(SolutionItems) = preProject
 		ATTRIBUTION.txt = ATTRIBUTION.txt
@@ -23,6 +23,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClojureExtension.Repl", "ClojureExtension.Repl\ClojureExtension.Repl.csproj", "{C9104D7A-6125-4E79-9AC1-1490D6DFA57C}"
 EndProject
 Global
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 2f2ee781-7f1d-4a70-9ff9-c0df743b28a1
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms

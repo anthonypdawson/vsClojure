@@ -6,5 +6,11 @@ bin/
 obj/
 *.user
 *.suo
+*.dll
+*.obj
+*.pdb
+*.exe
+*Deployment/Runtimes/1.3.0/
 Debug/
 Release/
+Backup/

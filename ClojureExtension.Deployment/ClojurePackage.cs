@@ -52,7 +52,7 @@ namespace ClojureExtension.Deployment
 {
 	[Guid(PackageGuid)]
 	[PackageRegistration(UseManagedResourcesOnly = true)]
-	[DefaultRegistryRoot("Software\\Microsoft\\VisualStudio\\10.0")]
+	[DefaultRegistryRoot("Software\\Microsoft\\VisualStudio\\11.0")]
 	[ProvideObject(typeof (GeneralPropertyPageAdapter))]
 	[ProvideProjectFactory(typeof (ClojureProjectFactory), "Clojure", "Clojure Project Files (*.cljproj);*.cljproj", "cljproj", "cljproj", @"Templates\Projects\Clojure", LanguageVsTemplate = "Clojure", NewProjectRequireNewFolderVsTemplate = false)]
 	[ProvideProjectItem(typeof (ClojureProjectFactory), "Clojure Items", @"Templates\ProjectItems\Clojure", 500)]
